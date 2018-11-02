@@ -1,0 +1,134 @@
+@media screen and (min-width: 200px) and (max-width: 767px) {
+
+    /*Global*/
+
+    .container {
+        max-width: 98%;
+    }
+    h2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .line {
+        margin: 15px auto;
+    }
+    #tabbingsec, #sublevel1, #sublevel2,
+    #awesome, #pricing, #customer, #contact, #design {
+        padding: 90px 0;
+    }
+    p.bottom, #pricing p.bottom {
+        padding-bottom: 25px;
+    }
+
+    /*Menu*/
+    .nav {
+        text-align: center;
+    }
+
+    /*Banner*/
+    #banner {
+        padding: 121px 0 30px;
+    }
+    #banner form{
+        margin: 0 auto 20px;
+        float: none;
+    }
+    #banner img {
+        max-width: 130px;
+        height: auto;
+    }
+    #banner p {
+        margin-bottom: 20px;
+    }
+
+    /*Social*/
+    #social a i {
+        font-size: 2em !important;
+        padding: 10px 0 0 10px;
+    }
+    .rightside {
+        text-align: center;
+    }
+
+    /*Tab section*/
+    .pull-left {
+        float: none;
+    }
+    .tab-links li {
+        margin: 0px 0px;
+        width: 33.33%;
+        float: left;
+    }
+    .tab-links li {
+        list-style: none;
+    }
+    .tab-links a {
+        width: 98%;
+        height: 50px;
+        line-height: 50px;
+    }
+    .tab-content {
+        padding-left: 0;
+    }
+    #tabbingsec h3 {
+        padding-top: 15px;
+        padding-bottom: 30px;
+        line-height: 28px;
+    }
+    .tab-content img{
+        margin: 15px auto 0 auto;
+    }
+
+    /*Sublevel 2*/
+    #sublevel2 h3 {
+        padding-top: 0;
+    }
+
+    /*Awesome*/
+    #awesome p {
+        margin-bottom: 15px;
+    }
+
+    /*Pricing*/
+    #pricing article {
+        max-width: 300px;
+        margin: 0 auto 20px;
+        width: 100%;
+    }
+    #pricing article h3 {
+        padding: 10px 0;
+    }
+    #pricing article h1 {
+        font-size: 60px;
+    }
+
+    /*Customer*/
+    #customer article {
+        max-width: 300px;
+        margin: 0 auto 20px;
+        width: 100%;
+    }
+
+    /*Design*/
+    #design {
+        min-height: auto;
+    }
+
+    /*Contact*/
+    #contact .form{
+        max-width: 500px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .container {
+        max-width: 98%;
+    }
+    #social a i {
+        padding: 10px 0 0 20px;
+    }
+    .customer_author h3, .customer_author span {
+        margin-left: 15px;
+    }
+}
